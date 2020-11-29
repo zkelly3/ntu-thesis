@@ -1,0 +1,25 @@
+\contentsline {chapter}{口試委員會審定書}{iii}{Doc-Start}
+\contentsline {chapter}{誌謝}{v}{chapter*.1}
+\contentsline {chapter}{Acknowledgements}{vii}{chapter*.2}
+\contentsline {chapter}{摘要}{ix}{chapter*.3}
+\contentsline {chapter}{Abstract}{xi}{chapter*.4}
+\contentsline {chapter}{\numberline {1}緒論}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}相關研究}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}人臉偵測}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}低光照下的人臉偵測}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}影像增強}{4}{section.2.3}
+\contentsline {chapter}{\numberline {3}方法}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}預訓練}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}損失函數}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}資料}{6}{subsection.3.1.2}
+\contentsline {subsubsection}{模擬曝光不足}{6}{section*.8}
+\contentsline {subsubsection}{模擬曝光過度}{6}{section*.9}
+\contentsline {subsection}{\numberline {3.1.3}所使用的模型}{7}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}主要訓練}{7}{section.3.2}
+\contentsline {chapter}{\numberline {4}實驗設定與結果}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}資料集}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}實驗設定}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}實驗結果}{10}{section.4.3}
+\contentsline {section}{\numberline {4.4}消融實驗}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5}總結與未來目標}{13}{chapter.5}
+\contentsline {chapter}{Bibliography}{15}{chapter.5}

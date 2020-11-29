@@ -1,47 +1,11 @@
-\chapter{Introduction}
+\chapter{緒論}
 \label{c:intro}
 
-Attention plays an important role in human vision. For example, when
-we look at an image, our eye movements comprise a succession of {\em
-fixations} (repetitive positioning of eyes to parts of the image)
-and {\em saccades} (rapid eye jump). Those parts of the image that
-cause eye fixations and capture primary attention are called {\em
-regions of interest} (ROIs). Studies in visual attention and eye
-movement have shown that humans generally only attend to a few ROIs.
-Detecting these visually attentive regions in images is challenging
-but useful in many multimedia applications, such as automatic
-thumbnail cropping, object recognition, content-based image
-retrieval, adaptive image compression and automatic browsing in
-small-screen devices.
+人臉偵測一直以來都是深度學習和電腦視覺領域中一個重要的議題。經過了幾年的研究，人臉偵測也漸趨成熟，而能夠被應用在更多領域中。其中一個新興的領域便是智慧型汽車這項技術。近年來人們不斷研究如何讓汽車駕駛變得更加方便和安全，因而研發出各項技術，如智慧駕駛輔助、自動駕駛等等。隨著這些技術的成熟，車內影像的應用也漸趨重要，其中一項應用便是對車內人臉的偵測。
 
-Many algorithms have been proposed for automatic ROI detection in
-images. Unfortunately, these methods were often evaluated only on
-specific and small data sets that are not publicly available. The
-lack of published {\em benchmarks} makes experiments non-repeatable
-and quantitative evaluation difficult. However, as recommended by
-the latest ACM SIGMM retreat, repeatable experiments using published
-benchmarks are important for advancing the multimedia research
-field~\cite{Rowe:2005:ASR}.
+但經過測試，一般人臉偵測的模型做在車內人臉上的表現並不是很好。車內人臉偵測的結果對後續的相關應用而言十分重要，因此改善它的結果是相當值得研究的。經過觀察，我們發現車內人臉偵測和一般人臉偵測相比，更容易碰到在不同光線照射下的例子；然而一般人臉偵測的研究較重視在大部分情境下的表現結果而忽略了在較極端光照下的例子，因此其在車內人臉的偵測上便表現得不如預期。
 
-\begin{figure}
-\centering
-\includegraphics[width=0.45\textwidth]{kl}
-\caption{kl-distance}
-\label{kl}
-\end{figure}
+在本研究中，我們試著消除不同光線照射對輸入資料造成的影響，使其在人臉偵測上能獲得較好的表現。我們在輸入資料過人臉偵測器之前先對資料進行正規化處理，並期待能透過消除環境光對資料的影響來改善人臉偵測的結果。
 
-\begin{table}[t]
-\begin{center}
-\begin{tabular}{lcc}
-
-\hline
-                    &  {\small Itti's method}     & {\small Fuzzy growing}    \\
-\hline
-{\small Precision}           &  0.4475    & 0.4506 \\
-{\small Recall}              &  0.5515    & 0.5542 \\
-\hline
-
-\end{tabular}
-\caption[Evaluation of FOA sets]{\small Evaluation of FOA sets. } \label{t:FOA}
-\end{center}
-\end{table}
+接下來的章節會陸續提到以下內容：
+在第二章，我們會介紹和本研究相關的其他研究，包含了人臉偵測、低光照下的人臉偵測和影像增強。在第三章，我們會詳細介紹本研究所使用的方法。在第四章，我們會說明訓練和測試的設定，展示視覺和數據上的結果，並以實驗說明方法中各個細節對結果造成的影響。而在第五章，我們會做出本研究的結論。

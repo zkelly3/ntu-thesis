@@ -1,55 +1,13 @@
 \begin{abstractzh}
-本論文提出了一影像中使用者感興趣區域 (region of interest)
-偵測之資料集 (benchmark)。
-使用者感興趣區域偵測在許多應用中極為有用，
-過去雖然有許多使用者感興趣區域之自動偵測演算法被提出，
-然而由於缺乏公開資料集，
-這些方法往往只測試了各自的小量資料而難以互相比較。
-從其它領域可以發現，
-基於公開資料集的可重製實驗與該領域突飛猛進密切相關，
-因此本論文填補了此領域之不足，
-我們提出名為「Photoshoot」的遊戲來蒐集人們對於感興趣區域的標記，
-並以這些標記來建立資料集。
-透過這個遊戲，我們已蒐集大量使用者對於感興趣區域的標記，
-並結合這些資料成為使用者感興趣區域模型。
-我們利用這些模型來量化評估五個使用者感興趣區域偵測演算法，
-此資料集也可更進一步作為基於學習理論演算法的測試資料，
-因此使基於學習理論的偵測演算法成為可能。
+近年來隨著智慧型汽車相關技術的成熟，車內人臉辨識逐漸受到重視。然而一般的人臉偵測模型尚無法在車內人臉辨識上獲得較好的結果。其原因我們推測為車內人臉辨識會碰到較多在不同光照下的例子，而一般的人臉偵測模型著重於大多數情境下的表現結果，經常忽略在較極端光照下的例子所致。在本論文中我們試著消除不同光照對圖片造成的影響。我們提出一個訓練架構來訓練出能夠對輸入資料在偵測前進行正規化處理的正規器，並將此正規器和人臉偵測器接在一起進行端對端訓練優化。我們的方法在基線做得最差的測試情境中相比基線結果進步了 47.27\%。
 
 \bigbreak
 \noindent \textbf{關鍵字：}{\, \makeatletter \@keywordszh \makeatother}
 \end{abstractzh}
 
 \begin{abstracten}
-This thesis presents a benchmark for region of interest (ROI)
-detection. ROI detection has many useful applications and many
-algorithms have been proposed to automatically detect ROIs.
-Unfortunately, due to the lack of benchmarks, these methods were
-often tested on small data sets that are not available to others,
-making fair comparisons of these methods difficult. Examples from
-many fields have shown that repeatable experiments using published
-benchmarks are crucial to the fast advancement of the fields. To
-fill the gap, this thesis presents our design for a collaborative
-game, called Photoshoot, to collect human ROI annotations for
-constructing an ROI benchmark. With this game, we have gathered a
-large number of annotations and fused them into aggregated ROI
-models. We use these models to evaluate five ROI detection
-algorithms quantitatively. Furthermore, by using the benchmark as
-training data, learning-based ROI detection algorithms become
-viable.
+As intelligent vehicle technologies become mature, in-car face detection gradually draws everyone's attention. However, general face detection models have yet to perform good when it comes to in-car face detection. We guess the reason is that while in-car face detection has to deal with more cases from various lighting situations, general face detection tends to focus on performing good on major cases and often ignores cases under extreme lighting situations. In this thesis, we tried to remove the effect lighting had on images. We proposed a training architecture to train a normalizer to normalize input images before getting detected, jointed it with a face detector and did end-to-end training for optimization. Our method outperformed baseline by 47.27\% in the test scenario that baseline performed worst on.
 
 \bigbreak
 \noindent \textbf{Keywords:}{\, \makeatletter \@keywordsen \makeatother}
 \end{abstracten}
-
-\begin{comment}
-\category{I2.10}{Computing Methodologies}{Artificial Intelligence --
-Vision and Scene Understanding} \category{H5.3}{Information
-Systems}{Information Interfaces and Presentation (HCI) -- Web-based
-Interaction.}
-
-\terms{Design, Human factors, Performance.}
-
-\keywords{Region of interest, Visual attention model, Web-based
-games, Benchmarks.}
-\end{comment}

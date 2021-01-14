@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.11.29)  16 DEC 2020 17:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.11.29)  15 JAN 2021 02:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1851,10 +1851,6 @@ Chapter 2.
 
 ]) (./method.tex [4]
 Chapter 3.
-
-LaTeX Warning: Reference `fig:general_fac' on page 5 undefined on input line 6.
-
-
 File: figures/data_1.jpg Graphic file (type bmp)
 <figures/data_1.jpg>
 File: figures/data_2.jpg Graphic file (type bmp)
@@ -1881,32 +1877,34 @@ File: figures/car_6.png Graphic file (type bmp)
 <figures/car_6.png>
 File: figures/car_7.png Graphic file (type bmp)
 <figures/car_7.png>
+[5
 
-LaTeX Warning: Reference `train_compare' on page 5 undefined on input line 59.
+]
+File: figures/test_flow.pdf Graphic file (type pdf)
+<use figures/test_flow.pdf>
+File: figures/train_flow.pdf Graphic file (type pdf)
+<use figures/train_flow.pdf>
+ [6]
+Underfull \vbox (badness 3792) has occurred while \output is active []
 
+ [7]
+File: figures/original_pretrain.pdf Graphic file (type pdf)
+<use figures/original_pretrain.pdf>
 File: figures/ori_input.png Graphic file (type bmp)
 <figures/ori_input.png>
-File: figures/dark_output.png Graphic file (type bmp)
-<figures/dark_output.png>
 File: figures/both_output.png Graphic file (type bmp)
 <figures/both_output.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[8]
+File: figures/alpha_input.png Graphic file (type bmp)
+<figures/alpha_input.png>
+File: figures/alpha_001.png Graphic file (type bmp)
+<figures/alpha_001.png>
+File: figures/alpha_005.png Graphic file (type bmp)
+<figures/alpha_005.png>
+File: figures/alpha_01.png Graphic file (type bmp)
+<figures/alpha_01.png>
 
- [5
-
-]
-File: figures/test_flow.png Graphic file (type bmp)
-<figures/test_flow.png>
-File: figures/train_flow.png Graphic file (type bmp)
-<figures/train_flow.png>
-
-[6]
-File: figures/original_pretrain.png Graphic file (type bmp)
-<figures/original_pretrain.png>
-File: figures/triple_setting.png Graphic file (type bmp)
-<figures/triple_setting.png>
- [7] [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
@@ -1917,13 +1915,13 @@ File: figures/same_dark.jpg Graphic file (type bmp)
 File: figures/same_bright.jpg Graphic file (type bmp)
 <figures/same_bright.jpg>
 
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [11]
+[12]) (./experiment.tex [13] [14
 
- [11])
-(./experiment.tex [12]
+]
 Chapter 4.
 File: figures/wider_1.jpg Graphic file (type bmp)
 <figures/wider_1.jpg>
@@ -1951,9 +1949,7 @@ File: figures/test_3_2.png Graphic file (type bmp)
 <figures/test_3_2.png>
 File: figures/test_4_2.png Graphic file (type bmp)
 <figures/test_4_2.png>
-[13
-
-] [14]
+[15] [16]
 File: figures/comp_base1.png Graphic file (type bmp)
 <figures/comp_base1.png>
 File: figures/comp_ours1.png Graphic file (type bmp)
@@ -1980,21 +1976,22 @@ File: figures/comp_ours6.png Graphic file (type bmp)
 <figures/comp_ours6.png>
 
 
-LaTeX Warning: Float too large for page by 8.96915pt on input line 157.
+LaTeX Warning: Float too large for page by 8.96915pt on input line 158.
 
+[17] [18]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig:triple_setting' on page 19 undefined on input lin
+e 197.
 
- [15]
-[16] [17]) (./conclusion.tex [18] [19] [20
-
-]
+[19] [20]) (./conclusion.tex [21] [22]
 Chapter 5.
-) [21] [22
+) [23
 
-] (./thesis.bbl [23
+] [24
 
-] [24]) [25]
+] (./thesis.bbl [25
+
+] [26]) [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 101.
  (./thesis.xwm) (./thesis.aux)
@@ -2011,12 +2008,12 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 41888 strings out of 493007
- 816787 string characters out of 6136718
- 921088 words of memory out of 5000000
- 45290 multiletter control sequences out of 15000+600000
- 537790 words of font info for 88 fonts, out of 8000000 for 9000
+ 41905 strings out of 493007
+ 817187 string characters out of 6136718
+ 924431 words of memory out of 5000000
+ 45305 multiletter control sequences out of 15000+600000
+ 538706 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,11n,92p,10476b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (43 pages).
+Output written on thesis.pdf (45 pages).

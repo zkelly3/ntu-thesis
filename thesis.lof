@@ -3,14 +3,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 常見人臉資料集中的圖片範例}}{6}{figure.caption.8}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces 車內影像範例}}{6}{figure.caption.9}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 訓練資料中含有高光照圖片與否之模型輸出結果比較}}{7}{figure.caption.10}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 測試時從輸入圖片到獲得偵測結果的流程}}{7}{figure.caption.11}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 完整的訓練流程}}{8}{figure.caption.12}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 預訓練時我們嘗試過的架構}}{9}{figure.caption.13}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 預訓練時所採用的架構}}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 不同光照模擬下的同一場景}}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 測試時從輸入圖片到獲得偵測結果的流程}}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 完整的訓練流程}}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 預訓練時我們嘗試過的架構}}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 使用舊訓練架構進行監督式學習後之結果}}{8}{figure.caption.13}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 不同$\alpha $下的輸出結果之比較}}{10}{figure.caption.15}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 不同光照模擬下的同一場景}}{11}{figure.caption.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Wider Face 資料集中的圖片範例}}{14}{figure.caption.19}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 測試資料集中的圖片範例}}{14}{figure.caption.20}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 我們的方法與基線之視覺結果比較}}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Wider Face 資料集中的圖片範例}}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 測試資料集中的圖片範例}}{16}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 我們的方法與基線之視覺結果比較}}{22}{figure.caption.23}
 \addvspace {10\p@ }

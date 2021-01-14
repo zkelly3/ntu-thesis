@@ -2,7 +2,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces 對不同資料集的命名\relax }}{15}{table.caption.21}
-\contentsline {table}{\numberline {4.2}{\ignorespaces 基線和我們的方法之結果比較\relax }}{15}{table.caption.22}
-\contentsline {table}{\numberline {4.3}{\ignorespaces 不同設定間之結果比較\relax }}{16}{table.caption.24}
+\contentsline {table}{\numberline {4.1}{\ignorespaces 對不同資料集的命名\relax }}{17}{table.caption.21}
+\contentsline {table}{\numberline {4.2}{\ignorespaces 基線和我們的方法之結果比較\relax }}{17}{table.caption.22}
+\contentsline {table}{\numberline {4.3}{\ignorespaces 在訓練時使用模擬曝光不足 / 曝光過度的資料對測試結果的影響\relax }}{18}{table.caption.24}
+\contentsline {table}{\numberline {4.4}{\ignorespaces 針對在偵測前進行正規化處理與否之比較\relax }}{19}{table.caption.25}
+\contentsline {table}{\numberline {4.5}{\ignorespaces 針對使用三圖一組架構進行預訓練的效果之比較\relax }}{20}{table.caption.26}
+\contentsline {table}{\numberline {4.6}{\ignorespaces 不同設定間之結果比較\relax }}{21}{table.caption.27}
 \addvspace {10\p@ }

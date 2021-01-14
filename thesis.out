@@ -18,7 +18,7 @@
 \BOOKMARK [1][-]{section.4.2}{實驗設定}{chapter.4}% 18
 \BOOKMARK [1][-]{section.4.3}{實驗結果}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.4}{消融實驗}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.1}{修改訓練資料集}{section.4.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.1}{在訓練時使用模擬曝光不足 / 曝光過度的資料}{section.4.4}% 21
 \BOOKMARK [2][-]{subsection.4.4.2}{在偵測前進行正規化處理}{section.4.4}% 22
 \BOOKMARK [2][-]{subsection.4.4.3}{使用三圖一組架構進行預訓練}{section.4.4}% 23
 \BOOKMARK [2][-]{subsection.4.4.4}{在預訓練後對正規器進行端對端訓練優化}{section.4.4}% 24

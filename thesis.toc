@@ -11,19 +11,19 @@
 \contentsline {chapter}{\numberline {3}問題定義與方法}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}目標與啟發}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}方法}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}預訓練}{6}{subsection.3.2.1}
-\contentsline {subsubsection}{損失函數}{7}{section*.15}
+\contentsline {subsection}{\numberline {3.2.1}預訓練}{7}{subsection.3.2.1}
+\contentsline {subsubsection}{損失函數}{8}{section*.14}
 \contentsline {subsubsection}{資料}{10}{section*.16}
-\contentsline {subsubsection}{所使用的模型}{11}{section*.18}
+\contentsline {subsubsection}{所使用的模型}{12}{section*.18}
 \contentsline {subsection}{\numberline {3.2.2}主要訓練}{12}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}實驗設定與結果}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}資料集}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}實驗設定}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}實驗結果}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}消融實驗}{16}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}修改訓練資料集}{16}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}在偵測前進行正規化處理}{17}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}使用三圖一組架構進行預訓練}{17}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}在預訓練後對正規器進行端對端訓練優化}{17}{subsection.4.4.4}
-\contentsline {chapter}{\numberline {5}總結與未來目標}{21}{chapter.5}
-\contentsline {chapter}{Bibliography}{23}{chapter.5}
+\contentsline {chapter}{\numberline {4}實驗設定與結果}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}資料集}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}實驗設定}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}實驗結果}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}消融實驗}{18}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}在訓練時使用模擬曝光不足 / 曝光過度的資料}{18}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}在偵測前進行正規化處理}{19}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}使用三圖一組架構進行預訓練}{20}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}在預訓練後對正規器進行端對端訓練優化}{21}{subsection.4.4.4}
+\contentsline {chapter}{\numberline {5}總結與未來目標}{23}{chapter.5}
+\contentsline {chapter}{Bibliography}{25}{chapter.5}
